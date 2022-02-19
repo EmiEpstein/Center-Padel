@@ -1,0 +1,100 @@
+* {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+html body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(to bottom #0072ff, #00c6ff);
+}
+.nav {
+  background-color: blue;
+  margin: 0px;
+  position: relative;
+  width: 100vw;
+}
+img {
+  background-position: center;
+
+  position: relative;
+}
+
+.crea {
+  background-image: url(agustintapia.webp);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+.crea--texto {
+  text-align: center;
+  color: white;
+}
+.crea--boton {
+  text-align: center;
+}
+a:visited {
+  color: black;
+}
+.funcionescontacto {
+  color: green;
+}
+table {
+  border: 1px solid rgb(0, 255, 157);
+}
+/* Cuadros links */
+.cuadros {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.cuadros_item {
+  border: 1px solid black;
+  margin: 100px;
+  padding: 100px;
+  background-color: #00c6ff;
+  transition-duration: 1.5s;
+}
+.cuadros_item:hover {
+  background-color: #0072ff;
+}
+
+/* Articulo y video*/
+.articulo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  grid-template-rows: minmax(50px, auto);
+}
+.articulo--titulo {
+  text-align: center;
+  background-color: aqua;
+  grid-column: 1/7;
+}
+.articulo--texto {
+  width: 400px;
+  order: 1;
+}
+.articulo--texto-texto {
+  font-size: 19px;
+}
+
+/*css footer*/
+.footer {
+  padding-top: 1rem;
+  background-color: gray;
+}
+.footer p {
+  text-align: center;
+  color: white;
+}
+
+.contactanos-form {
+  text-align: center;
+  background-color: aquamarine;
+}
