@@ -65,23 +65,9 @@ table {
 }
 
 /* Articulo y video*/
-.articulo {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  grid-template-rows: minmax(50px, auto);
-}
-.articulo--titulo {
+.display-5 {
+  background-color: #00c6ff;
   text-align: center;
-  background-color: aqua;
-  grid-column: 1/7;
-}
-.articulo--texto {
-  width: 400px;
-  order: 1;
-}
-.articulo--texto-texto {
-  font-size: 19px;
 }
 
 /*css footer*/
