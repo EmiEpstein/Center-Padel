@@ -84,3 +84,6 @@ table {
   text-align: center;
   background-color: aquamarine;
 }
+.navbar-expand-lg .navbar-light .bg-light {
+  background-color: #0072ff;
+}
