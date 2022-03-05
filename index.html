@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Outfit&display=swap"
       rel="stylesheet"
     />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f351b977e2.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -22,9 +24,10 @@
     <title>Center Padel</title>
   </head>
   <body>
-    <!-- prueba de bootstrap-->
+     <!--Header con Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
       <div class="container-fluid">
+        <img class="logo" src="CSS/CENTERPADELlogo.png" alt="">
         <a class="navbar-brand" href="index.html">Center Padel</a>
         <button
           class="navbar-toggler"
@@ -59,9 +62,7 @@
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">¡Crea tu juego!</h1>
-            <p class="fw-light text-muted">
-              ¡Envianos un mensaje y consulta por los turnos disponibles!
-            </p>
+
             <p>
               <a
                 href="https://api.whatsapp.com/send?phone=543854085159"
@@ -78,7 +79,7 @@
 
     <div class="row row-cols-4 row-cols-md-4 g-4">
       <div class="col">
-        <div class="card">
+        <button class="card"><a class="boton" href="Canchas.html">
           <img
             src="CSS/Center Cancha.jpeg"
             class="card-img-top"
@@ -90,14 +91,13 @@
               Conocé nuestras canchas y donde estan ubicadas para disfrutar del
               mejor Padel
             </p>
-            <a class="boton" href="Canchas.html">Click Aqui</a>
+            </a>
           </div>
-        </div>
+        </button>
       </div>
       <div class="col">
-        <div class="card">
+        <button class="card"><a href="torneos.html">
           <img
-            class="imagenes"
             src="CSS/Partido final Center.GIF"
             class="card-img-top"
             alt="..."
@@ -106,13 +106,13 @@
             <h5 class="card-title">Torneos</h5>
             <p class="card-text">
               Imagenes de los torneos organizados por Center Padel
-            </p>
-            <a class="boton" href="torneos.html">Click Aqui</a>
+            </p></a>
+            
           </div>
-        </div>
+        </button>
       </div>
       <div class="col">
-        <div class="card">
+        <button class="card"> <a href="https://api.whatsapp.com/send?phone=543854085159">
           <img
             src="CSS/subcampeones center.GIF"
             class="card-img-top"
@@ -124,29 +124,53 @@
               Consulta por los turnos disponibles para venir a disfrutar con
               amigos y familia
             </p>
-            <a
-              class="boton"
-              href="https://api.whatsapp.com/send?phone=543854085159"
-              >Click Aqui</a
-            >
+            </a>
           </div>
-        </div>
+        </button>
       </div>
       <div class="col">
-        <div class="card">
+        <button class="card"> <a href="index.html">
           <img src="CSS/Productos Center.GIF" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Productos</h5>
             <p class="card-text">
               Tambien podés comprar tu primera paleta y articulos variados
             </p>
-            <a class="boton" href="Canchas.html">Click Aqui</a>
-          </div>
-        </div>
+            
+          </div></a>
+        </button>
       </div>
     </div>
     <br />
     <br />
+    <!--
+    <div class="secciones">
+      <button class="cuadros">
+        <div class="cuadros--canchas">
+          <a href="Canchas.html"
+            ><img class="imagenes" src="CSS/Center Cancha.jpeg" alt="" /> cuadro
+            1</a
+          >
+        </div>
+      </button>
+      <button class="cuadros">
+        <div class="cuadros--torneos">
+          <a href="torneos.html"
+            ><img src="CSS/Partido final Center.GIF" alt="" /> cuadro 1</a
+          >
+        </div>
+      </button>
+      <button class="cuadros">
+        <div class="cuadros--contacto">
+          <a href="https://api.whatsapp.com/send?phone=543854085159"
+            >cuadro 1</a
+          >
+        </div>
+      </button>
+      <button class="cuadros">
+        <div class="cuadros--productos"><a href="index.html">cuadro 1</a></div>
+      </button>
+    </div> -->>
     <!--Articulo y video-->
     <h2 class="display-5">Conocé lo mejor de este deporte</h2>
 
@@ -178,9 +202,15 @@
 
     <!--Footer-->
     <footer class="footer">
-      <p>Buscanos en las redes</p>
-      <p>instagram</p>
-      <p>Whatsapp</p>
+      <div class="footer-sm">
+        <div class="footer-sm_icons">
+      <p class="footer--titulo">Buscanos en las redes</p>
+
+      <a href="https://www.instagram.com/center.padel_/"><i class="fa-brands fa-instagram"></i></a>
+     <a href="https://api.whatsapp.com/send?phone=543854085159"><i class="fa-brands fa-whatsapp"></i></a> 
+      
+      </div>
+    </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script

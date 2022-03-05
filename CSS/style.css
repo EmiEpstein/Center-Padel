@@ -2,12 +2,13 @@
   list-style: none;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
-html body {
+body {
   font-family: "lato", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav {
@@ -16,28 +17,33 @@ html body {
   position: relative;
   width: 100vw;
 }
-
-img {
-  background-position: center;
-  max-width: 1000px;
-  max-height: 850px;
-  position: relative;
+.logo {
+  width: 3rem;
 }
 
+.carousel {
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  justify-content: space-around;
+  margin-left: 28%;
+}
 .crea {
-  background-image: url(Center\ Cancha\ 3.jpeg);
-  height: 350px;
+  background-image: url(Center\ Cancha\ 3prueba2.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .fw-light {
   text-align: center;
   color: white;
+  position: sticky;
+  margin-top: 200px;
 }
 
-.crea--boton {
-  text-align: center;
-}
 a:visited {
   color: black;
 }
@@ -53,16 +59,24 @@ table {
   box-shadow: 2px;
 }
 .card {
-  margin: 10px;
+  margin: 80px;
   padding: 15px;
+  animation-delay: 00.24s;
+}
+.card:hover {
+  background-color: grey;
+  animation-delay: 0.24s;
 }
 .col {
-  margin: 0;
-  padding: 0;
+  margin-top: 50px;
+  padding: 10px;
   gap: 15px;
 }
 .imagenes {
   size: 100px;
+}
+img .d.block {
+  height: 500px;
 }
 
 /* Cuadros links
@@ -80,25 +94,58 @@ table {
 }
 .cuadros_item:hover {
   background-color: #0072ff;
+}
+
+.secciones {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 10px;
+  position: relative;
+  flex-direction: row;
+  align-content: center;
+}
+.cuadros {
+  border: 1px solid rgb(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 100px 100px;
+  padding: 100px;
+  text-decoration: none;
 }*/
+.contactanos-form {
+  text-align: center;
+  background-color: aquamarine;
+}
 
 /* Articulo y video*/
 .display-5 {
   background-color: #00c6ff;
   text-align: center;
+  font-style: italic;
 }
 
 /*css footer*/
 .footer {
-  padding-top: 1rem;
-  background-color: gray;
+  padding: 1rem;
+  background-color: black;
+  margin: 0px;
 }
-.footer p {
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+.footer-titulo {
   text-align: center;
   color: white;
 }
-
-.contactanos-form {
+.footer-sm_icons {
+  padding: 1.5rem 0;
   text-align: center;
-  background-color: aquamarine;
+}
+.footer a {
+  color: white;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 15px;
 }
