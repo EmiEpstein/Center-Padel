@@ -28,6 +28,20 @@ body {
   height: 500px;
   justify-content: space-around;
   margin-left: 28%;
+  position: static;
+}
+.carousel-torneos {
+  max-width: 700px;
+  margin-left: 32%;
+  padding-bottom: 50px;
+}
+.carousel-control-prev {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+.carousel-control-next {
+  margin-top: 300px;
+  margin-right: 500px;
 }
 .crea {
   background-image: url(Center\ Cancha\ 3prueba2.png);
@@ -111,6 +125,12 @@ img .d.block {
   padding: 100px;
   text-decoration: none;
 }*/
+.texto-torneos {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .contactanos-form {
   text-align: center;
   background-color: aquamarine;
