@@ -6,7 +6,7 @@
 }
 body {
   font-family: "lato", sans-serif;
-  font-weight: 500;
+  font: weight 400px;
   margin: 0px;
   padding: 0px;
 }
@@ -89,12 +89,12 @@ table {
 .imagenes {
   size: 100px;
 }
+
 img .d.block {
   height: 500px;
 }
 
-/* Cuadros links
-.cuadros {
+/* Cuadros links .cuadros {
   display: flex;
   justify-content: center;
   position: relative;
@@ -124,7 +124,8 @@ img .d.block {
   margin: 100px 100px;
   padding: 100px;
   text-decoration: none;
-}*/
+}
+*/
 .texto-torneos {
   text-align: center;
   font-size: 1.7rem;
