@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="CSS/CENTERPADELlogo.png" />
     <link rel="stylesheet" href="CSS/style.css" />
     <!--Font Google-->
     <link
@@ -18,21 +19,30 @@
       crossorigin="anonymous"
     />
 
-
     <title>Center Padel</title>
   </head>
   <body>
     <!-- prueba de bootstrap-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Center Padel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">Center Padel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.html">Iniciar sesion</a>
@@ -41,41 +51,107 @@
               <a class="nav-link" href="registrarse.html">Registrate</a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
-    
-    <!--Imagen de inicio y boton-->
     <div class="crea">
-      <h1 class="crea--texto">¡Crea tu juego!</h1>
-      <p class="crea--boton"><a href="contacto.html"> Pedir turno</a></p>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">¡Crea tu juego!</h1>
+            <p class="fw-light text-muted">
+              ¡Envianos un mensaje y consulta por los turnos disponibles!
+            </p>
+            <p>
+              <a
+                href="https://api.whatsapp.com/send?phone=543854085159"
+                class="btn btn-primary my-2"
+                >Pedir Turno</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
-    <br />
-    <!--Cuadros botones-->
-    <div>
-      <div>
-        <div class="cuadros">
-            <p class="cuadros_item cuadros--canchas">
-              <a href="Canchas.html">Nuestras Canchas</a>
-            </p>
-            <p class="cuadros_item cuadros--torneos">
-              <a href="torneos.html">Torneos</a>
-            </p>
 
-            <p class="cuadros_item cuadros--contactanos"><a href="contacto.html">Contactanos</a> </a>
+    <!--Cuadros botones-->
+
+    <div class="row row-cols-4 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="CSS/Center Cancha.jpeg"
+            class="card-img-top"
+            alt="imagen de las canchas"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nuestras Canchas</h5>
+            <p class="card-text">
+              Conocé nuestras canchas y donde estan ubicadas para disfrutar del
+              mejor Padel
             </p>
+            <a class="boton" href="Canchas.html">Click Aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            class="imagenes"
+            src="CSS/Partido final Center.GIF"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Torneos</h5>
+            <p class="card-text">
+              Imagenes de los torneos organizados por Center Padel
+            </p>
+            <a class="boton" href="torneos.html">Click Aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="CSS/subcampeones center.GIF"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Contactanos</h5>
+            <p class="card-text">
+              Consulta por los turnos disponibles para venir a disfrutar con
+              amigos y familia
+            </p>
+            <a
+              class="boton"
+              href="https://api.whatsapp.com/send?phone=543854085159"
+              >Click Aqui</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="CSS/Productos Center.GIF" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Productos</h5>
+            <p class="card-text">
+              Tambien podés comprar tu primera paleta y articulos variados
+            </p>
+            <a class="boton" href="Canchas.html">Click Aqui</a>
           </div>
         </div>
       </div>
     </div>
-
+    <br />
+    <br />
     <!--Articulo y video-->
     <h2 class="display-5">Conocé lo mejor de este deporte</h2>
 
     <div class="container">
       <div class="row">
-        
         <div class="col">
           <iframe
             width="800"
@@ -99,7 +175,6 @@
         </div>
       </div>
     </div>
-    
 
     <!--Footer-->
     <footer class="footer">
