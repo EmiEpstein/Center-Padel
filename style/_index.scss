@@ -1,0 +1,74 @@
+.footer {
+  padding: 1rem;
+  background-color: black;
+  margin: 0px;
+
+  a {
+    color: white;
+
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+      margin-right: 15px;
+    }
+  }
+}
+
+.crea {
+  background-image: url(/Imagenes/Center\ Cancha\ 3prueba2.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .fw-light {
+    text-align: center;
+    color: white;
+    position: sticky;
+    margin-top: 200px;
+  }
+}
+.carousel {
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  justify-content: space-around;
+  margin-left: 28%;
+  position: static;
+
+  .carousel-torneos {
+    max-width: 700px;
+    margin-left: 32%;
+    padding-bottom: 50px;
+
+    .carousel-control-next {
+      margin-top: 200px;
+    }
+    .carousel-control-prev {
+      margin-top: 200px;
+    }
+  }
+}
+.card {
+  margin: 80px;
+  padding: 15px;
+  animation-delay: 00.24s;
+
+  :hover {
+    background-color: grey;
+    animation-delay: 0.24s;
+  }
+}
+.texto-torneos {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: $background;
+}
+.display-5 {
+  background-color: $background;
+  text-align: center;
+  font-style: italic;
+}

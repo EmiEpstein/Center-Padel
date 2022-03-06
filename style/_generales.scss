@@ -1,0 +1,51 @@
+* {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lato", sans-serif;
+  font: weight 400px;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  width: 3rem;
+  margin-right: 10px;
+}
+a:visited {
+  color: black;
+}
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+.footer-sm_icons {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.col {
+  margin-top: 50px;
+  padding: 10px;
+  gap: 15px;
+}
+.imagenes {
+  size: 100px;
+}
+
+img .d.block {
+  height: 500px;
+}
+.texto-torneos {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: $background;
+}
+.display-5 {
+  background-color: $background;
+  text-align: center;
+  font-style: italic;
+}
