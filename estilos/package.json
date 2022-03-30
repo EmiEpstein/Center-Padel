@@ -1,0 +1,20 @@
+{
+  "name": "clase-0-coderhouse---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiEpstein/Center-Padel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiEpstein/Center-Padel/issues"
+  },
+  "homepage": "https://github.com/EmiEpstein/Center-Padel#readme"
+}
